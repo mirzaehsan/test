@@ -48,6 +48,7 @@ public class FactorialIter {
             throw new UpperBoundException(str);
         }
         System.out.println(num + "! = " + factorial(num));
+        System.out.println("for testing");
     }
 
     public long factorial(int n) { // iterative algorithm
