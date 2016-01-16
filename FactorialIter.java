@@ -36,6 +36,7 @@ public class FactorialIter {
 
 
     public FactorialIter(String str) throws InvalidNumberException, UpperBoundException,LowerBoundException { // Printing out the result
+        // check for invalid inputs
         if (!str.matches("(-?)\\d+")) { // Checks if numeric
             throw new InvalidNumberException(str);
         }
