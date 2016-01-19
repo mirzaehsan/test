@@ -4,6 +4,9 @@ public class FactorialRec {
 	public static void main(String[] args) { // Frame for reading a value 
 		if (args.length > 0) {			// from the command line
 			FactorialRec f = new FactorialRec(Integer.parseInt(args[0]));
+
+
+
 		}
 		else
 			System.out.println("use syntax: java FactorialRec n");
